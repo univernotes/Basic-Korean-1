@@ -1,0 +1,227 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Basic Korean( Lesson 1 )\n",
+    "\n",
+    "Total points 100 pts.\n",
+    "\n",
+    ">Midterm Exams 30 pts.\n",
+    "\n",
+    ">Final Exams 30 pts.\n",
+    "\n",
+    ">Attendance 10 pts.\n",
+    "\n",
+    ">HW 10 pts.\n",
+    "\n",
+    ">Activities 10 pts.\n",
+    "\n",
+    ">Quiz 10 pts.\n",
+    "\n",
+    "Prof. name `An Natalya(Natalya Anatolyevna)`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Grading System\n",
+    "\n",
+    "95> `A+`\n",
+    "\n",
+    "90-94 `A0`\n",
+    "\n",
+    "84-90 `B+`\n",
+    "\n",
+    "and etc."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`ЮН-СОК-ЙОЙ` = президент Южной Кореи\n",
+    "\n",
+    "`Ханбук` = Южняя Корея\n",
+    "\n",
+    "`Ханбуго` = Корейский Язык\n",
+    "\n",
+    "`Гибискус(Мунгунква)` = Корейский национальный цветок, символ Кореи"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<image src='data:image/png;base64,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'/>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`Тегки` = Корейский Национальный флаг\n",
+    "\n",
+    "Левый Верх означает `Небо`\n",
+    "\n",
+    "Левый Вниз означает `Огонь`\n",
+    "\n",
+    "Правый Верх означает `Вода`\n",
+    "\n",
+    "Правый Вниз означает `Земля`\n",
+    "\n",
+    "> По середине изображен Инь-Янь, где красный(женщина), а синий(мужчина)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`Седжонг` = Правитель, создавший Корейскую письменность\n",
+    "\n",
+    "`Хангы(Кун-мин-чон-ым) а после был создан Хангым` = письменность Кореи\n",
+    "\n",
+    "Корейцы низкого сословия не умели читать и писать и правитель решил их обучить(сделать образованными)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "В корейскрм языке 40 звуков\n",
+    "\n",
+    "`21 гласных(10 основных, 11 производных)`\n",
+    "\n",
+    "`19 согласных(14 основных, 5 двойных)`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`Anyon` = приветсвие(в основном для ровестников или людей младше)\n",
+    "\n",
+    "`anyonaseyo` = приветсвие(старшим людям)\n",
+    "\n",
+    "`Anyoashimnika` = Приветствие(самая вежливая и почетная)\n",
+    "\n",
+    "`Chonin ....... Imnida` = Я `Абдулазиз` являюсь (или меня зовут Абдулазиз)\n",
+    "\n",
+    "`Mannaso pangapsimnida` = рад познакомиться"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Как создавали гласные буквы\n",
+    "\n",
+    "`*` = небо\n",
+    "\n",
+    "`-` = земля\n",
+    "\n",
+    "`|` = человек\n",
+    "\n",
+    "Корейские буквы алфавита пишутся сверху вниз"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Корейские гласные\n",
+    "\n",
+    "`A` = ㅏ\n",
+    "\n",
+    "`YA` = ㅑ\n",
+    "\n",
+    "`O` = ㅓ\n",
+    "\n",
+    "`YO` = ㅕ\n",
+    "\n",
+    "`OU` = ㅗ\n",
+    "\n",
+    "`YOU` = ㅛ\n",
+    "\n",
+    "`UU` = ㅜ\n",
+    "\n",
+    "`YUU` = ㅠ\n",
+    "\n",
+    "`I` = ㅣ\n",
+    "\n",
+    "`Ы` = ㅡ\n",
+    "\n",
+    "`ㅇ` Буква \"иын\". Читается как носовой н (похоже на английский ng). В начале слога эта буква не читается."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`아이` = ребенок\n",
+    "\n",
+    "`우유` = молоко\n",
+    "\n",
+    "`오이` = огурец\n",
+    "\n",
+    "`이` = зуб\n",
+    "\n",
+    "`여우` = лиса\n",
+    "\n",
+    "`오` = 5"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "`Сонсэним` = обращение(учитель)\n",
+    "\n",
+    "`Камсамнида` = спасибо\n",
+    "\n",
+    "`Инса` = хурмат\n",
+    "\n",
+    "`HW` = `Сукце`\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "***Сукце***\n",
+    "\n",
+    "1. 10 гласных звуков учить\n",
+    "2. слова выучить\n",
+    "3. слова приветствия учить"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3.9.12 ('base')",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.9.12"
+  },
+  "orig_nbformat": 4,
+  "vscode": {
+   "interpreter": {
+    "hash": "6e59641d4ca1f67daa4199c263609b5fb652a61fc0c1f157fcb6e4528b365086"
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
